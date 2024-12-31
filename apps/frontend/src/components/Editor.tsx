@@ -54,7 +54,7 @@ const Tiptap = () => {
             jsonStep.slice?.content[0]?.text
           );
         }
-        // console.log("Step", step.toJSON());
+        console.log("Step", step.toJSON());
       });
 
       // console.log(editor.getJSON());
