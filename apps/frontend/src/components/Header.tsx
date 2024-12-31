@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { useScroll, useTransform } from "framer-motion";
 import { useEffect, useState } from "react";
 import { BiChevronDown } from "react-icons/bi";
-import Button from "./ui/button";
+import Button from "./ui/Button";
 
 export function Header() {
   const { scrollY } = useScroll();

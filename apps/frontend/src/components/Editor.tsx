@@ -42,7 +42,7 @@ const Tiptap = () => {
       },
     },
     content: `<ul class="list-disc ml-2"><li><p>Hello 12345632</p></li></ul>`,
-    onUpdate: ({ editor, transaction }) => {
+    onUpdate: ({ transaction }) => {
       console.log("transaction", transaction);
       transaction.steps.forEach((step) => {
         const jsonStep = step.toJSON();
